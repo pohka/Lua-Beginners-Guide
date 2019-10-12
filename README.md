@@ -222,7 +222,7 @@ end
 print(a) --nil
 ```
 
-**global variable**
+**Global Variable**
 ```lua
 local _G.myValue = 69
 --doing this can sometimes be bad practice
@@ -261,7 +261,7 @@ while i >= 0 do
 end
 ```
 
-**nested Loops**
+**Nested Loops**
 ```lua
 local count = 0
 for a=1, 10 do
