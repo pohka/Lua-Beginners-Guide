@@ -4,13 +4,23 @@
 ```lua
 print("Hello World")
 ```
+or
+```lua
+io.write("Hello World")
+```
+`io.write` can also be used and that is the better way to do it
 
 ## Comments
 ```lua
 --this is a comment
 print("hello") --this is another comment
 -- the next line will not do anything because it is commented out
---print("world") 
+--print("world")
+--[[
+you can also do comments with more than one line
+like this
+see
+]]
 ```
 
 ## Variables
