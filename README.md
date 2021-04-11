@@ -6,11 +6,14 @@ print("Hello World")
 ```
 
 ## Comments
+  ## Single line comment
 ```lua
 --this is a comment
 print("hello") --this is another comment
 -- the next line will not do anything because it is commented out
---print("world") 
+--print("world")
+  ## Block comment/Multi-line comment
+--[[This is how you block you comment with lua, and even if you press the enter within the square brackets, you will still be in comment section]]
 ```
 
 ## Variables
@@ -190,8 +193,8 @@ local milk = 110
 local breadTax = calculateTax(bread) --27.3
 local milkTax = calculateTax(milk) --23.1
 
-print("Bread Tax = " .. breadTax) 
-print("Milk Tax = " .. milkTax) 
+print("Bread Tax = " .. breadTax)
+print("Milk Tax = " .. milkTax)
 ```
 
 ```lua
@@ -308,7 +311,7 @@ end
 ```
 
 ```lua
---remove 
+--remove
 local colors = { "red", "green", "blue" }
 table.remove(colors, 1)
 for i=1, #colors do
