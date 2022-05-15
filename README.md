@@ -44,11 +44,11 @@ print(c) -- 3
 local d = b - a
 print(d) -- 1
 
-local x =  1 * 3 * 4 -- 12
-print(x)
+local x =  1 * 3 * 4
+print(x) -- 12
 
-local y = (1+3) * 2 -- 8
-print(y)
+local y = (1+3) * 2
+print(y) -- 8
 
 
 print(10/2) -- 5
