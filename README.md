@@ -21,7 +21,7 @@ print("hello") --this is another comment
 local x = 10 --number
 local name = "john doe" --string
 local isAlive = false -- boolean
-local a = nil --no value or invalid value
+local a = nil --none value or invalid value
 ```
 
 **Numbers**
