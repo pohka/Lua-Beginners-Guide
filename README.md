@@ -21,7 +21,7 @@ print("hello") --this is another comment
 local x = 10 --number
 local name = "john doe" --string
 local isAlive = false -- boolean
-local a = nil --no value or invalid value
+local a = nil --none value or invalid value
 ```
 
 **Numbers**
@@ -44,11 +44,11 @@ print(c) -- 3
 local d = b - a
 print(d) -- 1
 
-local x =  1 * 3 * 4 -- 12
-print(x)
+local x =  1 * 3 * 4
+print(x) -- 12
 
-local y = (1+3) * 2 -- 8
-print(y)
+local y = (1+3) * 2
+print(y) -- 8
 
 
 print(10/2) -- 5
