@@ -70,7 +70,7 @@ print(level) -- 2
 -- concatenate strings
 local phrase = "My name is "
 local name = "John Doe"
-print(phase .. name) --My name is John Doe
+print(phrase .. name) --My name is John Doe
 
 -- strings and numbers
 local age = 12
