@@ -338,11 +338,11 @@ end
 2 dimensional tables are not suited to data with different types, instead uses keys for tables
 ```lua
 local teams = {
-    ["teamA"] = 12,
-    ["teamB"] = 15
+	["team A"] = 12, -- bracket notation
+	teamB = 15, -- literal notation (useful when no spaces)
 }
 
-print(teams["teamA"]) -- 12
+print(teams["team A"]) -- 12
 
 for key,value in pairs(teams) do
   print(key .. ":" .. value)
